@@ -611,6 +611,7 @@ a:hover {
     font-size: var(--main-intro-size);
     line-height: 1;
     color:cyan;
+    text-decoration: underline;
 }
 
 .apice {
@@ -1099,13 +1100,6 @@ canvas {
 
 }
 
-.bordoStondato{
-
-    margin: 0;
-    padding: 0;
-    height: 100%;
-}
-
 #pepe{
     width: 14vw;
     height: auto;
@@ -1113,7 +1107,7 @@ canvas {
 }
 
 #comparison {
-     width: auto;
+    width: auto;
     height: 14vh;
     padding: 0rem;
 }
@@ -1204,11 +1198,6 @@ canvas {
         padding-left: 1.5vw;
     }
 
-    #secondHome {
-        padding-bottom: 4vh;
-    }
-
-
     /*Home*/
 
     #third {
@@ -1236,6 +1225,7 @@ canvas {
     .etichette {
         position: relative;
         z-index: 10;
+        margin-left: 1rem;
     }
     .stickGatto {
         position:relative;
@@ -1284,48 +1274,123 @@ canvas {
     }
 
     /*TESTO MW HOME*/
-    .spiegawarfare-text-piccolo {
-        font-size: 4vw;
-        padding-left: 2rem;
-    }
-    
+
+
     .asciiNascostoMobile {
         display: none;
     }
-    
+
     #secondHome {
-    position: relative;
-    padding-top: 0;
-    padding-bottom: 25vh;
-}
-    
+        position: relative;
+        padding-top: 0;
+        padding-bottom: 3rem;
+    }
+
     .wkLayoutImg {
-    width: 20vw;
-    height: auto;
-    padding: 0rem;
-    float: left;
-}
+        width: 20vw;
+        height: auto;
+        padding: 0rem;
+
+        padding-top: 0.1rem;
+        margin-right: 0.5rem;
+    }
     .supHome {
-    padding: 0.1rem;
-    padding-left: 0.05rem;
-    padding-top: 0.35rem;
-    height: 0.75rem;
-    width: 0.5rem;
-    border: 0.01rem solid black;
-    margin-right: 0.2rem;
-    float: left;
+        padding: 0.1rem;
+        padding-left: 0.05rem;
+        padding-top: 0.35rem;
+        height: 0.75rem;
+        width: 0.5rem;
+        border: 0.01rem solid black;
+        margin-right: 0.2rem;
+        float: left;
+        margin-top: 0rem;
+    }
+
+    sup {
+        top:0; 
+    }
+    #memeInfo {
+        position: relative;
+        z-index: 1;
+        height: 15vh;
+        width: auto;
+        transform-origin: center;
+        transform: rotate(-14deg) translateY(1rem) translateX(7rem);
+        transition: 0.4s ease-in-out;
+        margin-bottom: 2rem;
+    }
+
+    #memeInfo:active{
+        position: relative;
+        z-index: 1;
+        height: 15vh;
+        width: auto;
+        transform-origin: center;
+        transform: rotate(-14deg) translateY(1rem) translateX(7rem) scale(0.95);
+        transition: 0.2s ease-in-out;
+        margin-bottom: 2rem;
+    }
+    .spiegawarfare-text-piccolo {
+        font-size: 4vw;
+        margin-left:0.5rem;
+        margin-right:0.5rem;
+    }
+
+    .rientroMobile {
+        margin-left:3rem;
+    }
+
+    #pepe{
+        width: 27vw;
+        height: auto;
+        padding: 0rem;
+    }
+
+    .propaganda__link {
+        font-size: 8vw;
+        line-height: 1.2;
+        color: black;
+        
+    }
+
+    .propaganda__link sup {
+        font-size: 5vw;
+    }
+
+    .propaganda__link:hover {
+        font-size: 8.5vw;
+        line-height: 1.2;
+        color:cyan;
+        text-decoration: underline;
+    }
+
+    .apice {
+        font-size: 5vw;
+    }
+
+    sub, sup {
+        position: relative;
+        font-size: 75%;
+        line-height: 0;
+        vertical-align: super;
+    }
+    
+    .asciiSciss {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 3vw;
+    color: black;
     margin-top: 0rem;
+    margin-bottom: 0.5rem;
+    line-height: 3.2vw;
+    overflow: hidden;
+        text-align: -webkit-center;
 }
 
-sup {
-    top:0; 
-}
 
-    
-    
-    
-    
-    
+
+
+
+
     /*Artwork archivio*/
     .HKinfos {
         display: none;
@@ -1374,9 +1439,9 @@ sup {
         padding: 0rem;
         margin-bottom: 10vh;
     }
-    
+
     .asciiNascostoMobile{
-    display: block;
-}
+        display: block;
+    }
 
 }
