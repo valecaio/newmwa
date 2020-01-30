@@ -5,7 +5,7 @@
 }
 
 body {
-    background: url("/assets/img/Asset1-8.png")no-repeat center center fixed;
+    background: url('https://i.ibb.co/R4NJYgR/Asset1-8.png')no-repeat center center fixed;
     overflow-x: hidden;
     font-family: arialnarrow;
     /* position: absolute;*/
@@ -798,7 +798,7 @@ mark{
 
 
 .background-about {
-    background: url("/assets/img/bg.jpg")no-repeat center center fixed;
+    background: url('https://i.ibb.co/0ytxS6C/bg.jpg')no-repeat center center fixed;
     background-color: black;
 }
 
@@ -1035,7 +1035,7 @@ mark{
     right: 0;
     bottom: 0;
     z-index: 11;
-    background: url("/assets/img/Asset1-8.png")no-repeat center center fixed;
+    background: url('https://i.ibb.co/R4NJYgR/Asset1-8.png')no-repeat center center fixed;
     opacity: 0;
 }
 canvas {
