@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'arialnarrow';
     src: url('assets/fonts/arialnarrow.woff') format('woff'),
-    src: url('assets/fonts/arialnarrow.woff2') format('woff2');
+        src: url('assets/fonts/arialnarrow.woff2') format('woff2');
 }
 
 body {
@@ -33,7 +33,7 @@ body {
 }
 
 .light {
-     font-family: arialnarrow;
+    font-family: arialnarrow;
     font-weight: 100;
 }
 
@@ -102,7 +102,7 @@ body {
 
 .spiegawarfare-text-piccolo {
     font-size: var(--main-note-size);
-    line-height: 1.4em;
+    line-height: 1.3em;
 }
 
 #first {
@@ -480,6 +480,7 @@ a {
     margin-bottom: 4vh;
 }
 
+
 #fourth {
     background: none;
     padding-top: 1vh;
@@ -517,7 +518,7 @@ a:hover {
 #demo {
     position: absolute;
     width: 30%;
-    
+
 }
 
 .cat {
@@ -692,174 +693,6 @@ transition: 0.3s;
 mark{
     background: black;
     color: white;
-}
-
-
-
-
-
-/*///////////////////////////MEDIA ONLY///////////////////////////*/
-@media only screen and (max-width: 400px) {
-
-    /*NAVBAR*/
-    .navbar .navbar-text{
-        color : var(--main-navbartext-color);
-        font-size: 5vw;
-        padding-right: 0.5rem;
-        margin-bottom: 1rem;
-    }
-
-    .desktop {
-        display: none;
-    }
-
-    .mobile {
-        display: block;
-    }
-
-    /*--menù a tendina--*/
-    .navbar .dropdown-menu{
-        background-color: white;
-        border: 1px black solid;
-        width: 15vw;
-        border-radius: 0rem;
-        padding: 0vw;
-    }
-
-    .dropdown-item{
-        color: var(--main-navbartext-color);
-        padding: 0vw;
-        padding-left: 1.5vw;
-    }
-
-    #secondHome {
-        padding-bottom: 4vh;
-    }
-
-
-    /*Home*/
-
-    #third {
-        background: none;
-        padding-bottom: 4vh;
-    }
-
-    div.HKinfos {
-        display: none;
-    }
-
-    #first {
-        background: none;
-        padding-top: 5em;
-        padding-bottom: 0vh;
-    }
-
-    /*introduction text*/
-    .introduzione-text {
-        font-size: 9vw;
-        text-transform: uppercase;
-        line-height: 1em;
-    }
-
-    .etichette {
-        position: relative;
-        z-index: 10;
-    }
-    .stickGatto {
-        position:relative;
-        top:0;
-        z-index: 100;
-        border: none;
-        transform-origin: bottom;
-        transform: scale(0.8);
-        transition: 0.7s ease-in-out;
-    }
-
-    .stickBrex {
-        transform-origin: center;
-        transform: scale(0.8);
-        border: none;
-        z-index: 10;
-        transition: 0.7s ease-in-out;
-    }
-
-    .stickWar {
-        border: none;
-        z-index: 1;
-        transition: 0.7s ease-in-out;
-        transform-origin: top;
-        transform: scale(0.8);
-    }
-
-    .propagandaBox {
-        transform: rotate(-9deg);
-        padding: 0rem;
-        margin-top:0;
-        margin-bottom: 0;
-        width:190%;   
-    }
-
-    .spiegawarfare-text {
-        font-size: 3vw;
-        line-height: 1.2em;
-    }
-
-    .centerSticker {
-        position: relative;
-        top: 0%;
-        left: 0%;
-        transform: translate(0%, 0%);  
-    }
-
-    /*Artwork archivio*/
-    .HKinfos {
-        display: none;
-    }
-    .stella {
-        display: none;    
-    } 
-    .stella:before {
-        display: none;    
-    }
-
-    .HKinfosSmall {
-        display: block;
-    }
-
-    /*ARCHIVIO*/
-    .pet-name {
-        max-height: 30vh;
-        max-width: 30vw;
-    }
-    .animal {
-        margin:0.5rem;
-    }
-    .animal p {
-        font-size: 4vw;
-    }
-
-    /*SIDEBAR*/
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-}
-
-
-
-@media only screen and (min-width:801px)  { 
-
-    .centerSticker {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-    .propagandaBox {
-        transform: rotate(-9deg);
-        padding: 0rem;
-        margin-bottom: 10vh;
-    }
-
 }
 
 
@@ -1058,7 +891,7 @@ mark{
     height: 20vh;
     padding-bottom: 1vh;
     position: relative;
-    
+
 }
 
 #about {
@@ -1182,8 +1015,8 @@ mark{
 .footertext {
     color:black;
     font-family: Arial Narrow, Arial, sans-serif;
-    
-    
+
+
 }
 
 /**************CURTAIN E INTRODUZIONE**********/
@@ -1253,7 +1086,7 @@ canvas {
 /*/////////*/
 
 #poster{height:20rem;
-margin-top:-5rem;}
+    margin-top:-5rem;}
 
 
 /*HOME*/
@@ -1262,12 +1095,12 @@ margin-top:-5rem;}
     width: 12vw;
     height: auto;
     padding: 0rem;
-    
-    
+
+
 }
 
 .bordoStondato{
-    
+
     margin: 0;
     padding: 0;
     height: 100%;
@@ -1276,6 +1109,12 @@ margin-top:-5rem;}
 #pepe{
     width: 14vw;
     height: auto;
+    padding: 0rem;
+}
+
+#comparison {
+     width: auto;
+    height: 14vh;
     padding: 0rem;
 }
 
@@ -1297,15 +1136,6 @@ margin-top:-5rem;}
     transform-origin: center;
     transform: rotate(-18deg) translateY(-2rem) translateX(4rem); 
     transition: 0.7s ease-in-out;
-}
-
-@keyframes {
-    from {
-        
-    }
-    to{
-        
-    }
 }
 
 .colAscii{
@@ -1333,7 +1163,220 @@ margin-top:-5rem;}
 
 .contenitoriCredits{
     margin-top: 10vh;
- 
+}
+
+#video{
+    height: 10rem;
+    width: auto;
+}
+
+/*///////////////////////////MEDIA ONLY///////////////////////////*/
+@media only screen and (max-width: 400px) {
+
+    /*NAVBAR*/
+    .navbar .navbar-text{
+        color : var(--main-navbartext-color);
+        font-size: 5vw;
+        padding-right: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    /*--menù a tendina--*/
+    .navbar .dropdown-menu{
+        background-color: white;
+        border: 1px black solid;
+        width: 15vw;
+        border-radius: 0rem;
+        padding: 0vw;
+    }
+
+    .dropdown-item{
+        color: var(--main-navbartext-color);
+        padding: 0vw;
+        padding-left: 1.5vw;
+    }
+
+    #secondHome {
+        padding-bottom: 4vh;
+    }
+
+
+    /*Home*/
+
+    #third {
+        background: none;
+        padding-bottom: 4vh;
+    }
+
+    div.HKinfos {
+        display: none;
+    }
+
+    #first {
+        background: none;
+        padding-top: 5em;
+        padding-bottom: 0vh;
+    }
+
+    /*introduction text*/
+    .introduzione-text {
+        font-size: 9vw;
+        text-transform: uppercase;
+        line-height: 1em;
+    }
+
+    .etichette {
+        position: relative;
+        z-index: 10;
+    }
+    .stickGatto {
+        position:relative;
+        top:0;
+        z-index: 100;
+        border: none;
+        transform-origin: bottom;
+        transform: scale(0.8);
+        transition: 0.7s ease-in-out;
+    }
+
+    .stickBrex {
+        transform-origin: center;
+        transform: scale(0.8);
+        border: none;
+        z-index: 10;
+        transition: 0.7s ease-in-out;
+    }
+
+    .stickWar {
+        border: none;
+        z-index: 1;
+        transition: 0.7s ease-in-out;
+        transform-origin: top;
+        transform: scale(0.8);
+    }
+
+    .propagandaBox {
+        transform: rotate(-9deg);
+        padding: 0rem;
+        margin-top:0;
+        margin-bottom: 0;
+        width:190%;   
+    }
+
+    .spiegawarfare-text {
+        font-size: 3vw;
+        line-height: 1.2em;
+    }
+
+    .centerSticker {
+        position: relative;
+        top: 0%;
+        left: 0%;
+        transform: translate(0%, 0%);  
+    }
+
+    /*TESTO MW HOME*/
+    .spiegawarfare-text-piccolo {
+        font-size: 4vw;
+        padding-left: 2rem;
+    }
+    
+    .asciiNascostoMobile {
+        display: none;
+    }
+    
+    #secondHome {
+    position: relative;
+    padding-top: 0;
+    padding-bottom: 25vh;
+}
+    
+    .wkLayoutImg {
+    width: 20vw;
+    height: auto;
+    padding: 0rem;
+    float: left;
+}
+    .supHome {
+    padding: 0.1rem;
+    padding-left: 0.05rem;
+    padding-top: 0.35rem;
+    height: 0.75rem;
+    width: 0.5rem;
+    border: 0.01rem solid black;
+    margin-right: 0.2rem;
+    float: left;
+    margin-top: 0rem;
+}
+
+sup {
+    top:0; 
+}
+
+    
+    
+    
+    
+    
+    /*Artwork archivio*/
+    .HKinfos {
+        display: none;
+    }
+    .stella {
+        display: none;    
+    } 
+    .stella:before {
+        display: none;    
+    }
+
+    .HKinfosSmall {
+        display: block;
+    }
+
+    /*ARCHIVIO*/
+    .pet-name {
+        max-height: 30vh;
+        max-width: 30vw;
+    }
+    .animal {
+        margin:0.5rem;
+    }
+    .animal p {
+        font-size: 4vw;
+    }
+
+    /*SIDEBAR*/
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
 }
 
 
+
+@media only screen and (min-width:801px)  { 
+
+    .centerSticker {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .propagandaBox {
+        transform: rotate(-9deg);
+        padding: 0rem;
+        margin-bottom: 10vh;
+    }
+    
+    .asciiNascostoMobile{
+    display: block;
+}
+
+}
