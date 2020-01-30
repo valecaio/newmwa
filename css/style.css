@@ -823,12 +823,12 @@ mark{
 }
 
 
-#formica, #img-NewHampshire, #img-cheezburger, #img-xijinping, #img-iran, #img-brexit, #img-hkprotest, #img-memetic .visible {
+#formica, #img-NewHampshire, #img-cheezburger, #img-xijinping, #img-iran, #img-brexit, #img-hkprotest, #img-memetic, #virus .visible {
     visibility: visible;  
 }
 
 
-#img-brexit, #img-hkprotest, #img-iran, #img-xijinping, #img-memetic {
+#img-brexit, #img-hkprotest, #img-xijinping, #img-memetic {
     position: absolute;
     visibility: hidden;
     transform: translateX(-50%)  translateY(-50%); 
@@ -841,6 +841,26 @@ mark{
     position: absolute;
     visibility: hidden;
     transform: translateX(-50%)  translateY(-145%); 
+    pointer-events:none;
+    width: 35%;
+    height: auto;
+    z-index: 0;
+}
+
+#img-iran {
+    position: absolute;
+    visibility: hidden;
+    transform: translateX(-10%)  translateY(-55%); 
+    pointer-events:none;
+    width: 35%;
+    height: auto;
+    z-index: 0;
+}
+
+#virus {
+    position: absolute;
+    visibility: hidden;
+    transform: translateX(-50%)  translateY(-120%); 
     pointer-events:none;
     width: 35%;
     height: auto;
@@ -868,7 +888,7 @@ mark{
 }
 
 
-#ant, #NewHampshire, #cheezburger, #xijinping, #iran, #brexit, #memetic, #reddit_btn, #kym_btn {
+#ant, #NewHampshire, #cheezburger, #xijinping, #iran, #brexit, #memetic, #reddit_btn, #kym_btn, #parasite, #hkprotest {
     color: cyan;
     text-decoration: underline;
 }

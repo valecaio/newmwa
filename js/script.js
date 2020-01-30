@@ -2249,6 +2249,17 @@ $('#ant').mousemove(function(e){
 });
 
 
+$('#parasite').mousemove(function(e){
+  $('.immaginihover').find('#virus').addClass('visible');
+  $('.immaginihover').find('#virus').css({
+      left:e.pageX, top:e.pageY
+    });  
+}).mouseleave(function(){
+  $('.immaginihover').find('#virus').removeClass('visible');
+});
+
+
+
 $('#NewHampshire').mousemove(function(e){
   $('.immaginihover').find('#img-NewHampshire').addClass('visible');
   $('.immaginihover').find('#img-NewHampshire').css({
