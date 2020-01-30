@@ -5,10 +5,11 @@
 }
 
 body {
-    background: url("assets/img/Asset1-8.png")no-repeat center center fixed;
+    background: url("/assets/img/Asset1-8.png")no-repeat center center fixed;
     overflow-x: hidden;
     font-family: arialnarrow;
     /* position: absolute;*/
+
 }
 
 
