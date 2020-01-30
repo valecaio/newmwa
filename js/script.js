@@ -2504,6 +2504,7 @@ var asciiDX = $('pre[id^="asciiDX"]').show(),
     a = ++a % asciiDX.length;
 })();
 
+
 /*
 document.querySelectorAll('.ascii').forEach(function(item){
     item.onmouseover = function () {
@@ -2922,8 +2923,6 @@ function emptyMarquee () {
 
 
 /////////////////////////
-//CHANGE IMG SRC WITH HOVER//
-
 
 
 

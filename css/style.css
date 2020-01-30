@@ -148,6 +148,7 @@ p {
     line-height: 1.2;
 }
 
+
 /* Scissors */
 .asciiSciss {
     font-family: "Courier New", Courier, monospace;
@@ -209,6 +210,10 @@ p {
     font-size: 0.6vw;
     line-height: 1;
     font-weight: 900;
+}
+
+.asciiMobile {
+    display: none;
 }
 
 
@@ -392,9 +397,6 @@ a {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
     cursor: pointer;
-}
-
-#app {    
 }
 
 .didascalie_1 {
@@ -1168,6 +1170,9 @@ canvas {
 @media only screen and (max-width: 400px) {
 
     /*NAVBAR*/
+    .navbar{
+        height: 4em;
+    }
     .navbar .navbar-text{
         color : var(--main-navbartext-color);
         font-size: 5vw;
@@ -1350,7 +1355,7 @@ canvas {
         font-size: 8vw;
         line-height: 1.2;
         color: black;
-        
+
     }
 
     .propaganda__link sup {
@@ -1358,7 +1363,7 @@ canvas {
     }
 
     .propaganda__link:hover {
-        font-size: 8.5vw;
+        font-size: 8vw;
         line-height: 1.2;
         color:cyan;
         text-decoration: underline;
@@ -1374,17 +1379,17 @@ canvas {
         line-height: 0;
         vertical-align: super;
     }
-    
+
     .asciiSciss {
-    font-family: "Courier New", Courier, monospace;
-    font-size: 3vw;
-    color: black;
-    margin-top: 0rem;
-    margin-bottom: 0.5rem;
-    line-height: 3.2vw;
-    overflow: hidden;
+        font-family: "Courier New", Courier, monospace;
+        font-size: 3vw;
+        color: black;
+        margin-top: 0rem;
+        margin-bottom: 0.5rem;
+        line-height: 3.2vw;
+        overflow: hidden;
         text-align: -webkit-center;
-}
+    }
 
 
 
@@ -1421,7 +1426,41 @@ canvas {
     /*SIDEBAR*/
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+
+    /*SCHEDE PROPAGANDA*/
+
+    #fifth {
+        background: none;
+        padding-top: 0;
+    }
+
+    .categorie-text-fisse {
+        font-size: 7.5vw;
+        line-height: 1.1em;
+        padding: 0;
+        padding-left: 1vw;
+    }
+
+    .spiegawarfare-text {
+        font-size: 4.5vw;
+        line-height: 1.2em;
+    }
+
+    .seeothertechniques{
+        font-size: 4vw;
+        line-height: 1.2em;
+    }
+    .ascii {
+        font-family: "Courier New", Courier, monospace;
+        font-size: 2.3vw;
+        color: black;
+        margin: 0;
+        line-height: 1.2;
+    }
+
 }
+
+
 
 
 
