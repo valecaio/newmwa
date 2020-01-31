@@ -160,15 +160,18 @@ p {
     overflow: hidden;
 }
 
-.decoration {
-    position: absolute;
+.asciiScissWhiteAbout {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1vw;
+    color: black;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    line-height: 1vw;
+    overflow: hidden;
 }
 
-.whoProj {
-    font-family: "Courier New", Courier, monospace;
-    font-size: 3pt;
-    line-height: 1;
-    font-weight: 900;
+.decoration {
+    position: absolute;
 }
 
 .whoProjname {
@@ -199,7 +202,7 @@ p {
 .whoProj {
     font-family: "Courier New", Courier, monospace;
     color: white;
-    font-size: 0.2vw;
+    font-size: 0.3vw;
     line-height: 1;
     font-weight: 900;
 }
@@ -207,9 +210,10 @@ p {
 .asciiScissWhite {
     font-family: "Courier New", Courier, monospace;
     color: white;
-    font-size: 0.6vw;
+    font-size: 0.7vw;
     line-height: 1;
     font-weight: 900;
+    margin-bottom: 0;
 }
 
 .asciiMobile {
@@ -811,9 +815,10 @@ mark{
 
 .titoli-about {
     font-size: 5vw;
-    line-height: 1em;
+    line-height: 1.2;
     color: white;
 }
+
 
 .testi-about {
     font-size: 2vw;
@@ -908,12 +913,12 @@ mark{
 .bottone {
     color: white;
     background-color: black;
-    font-family: Arial Narrow, Arial, sans-serif;
-    font-size: 6em;
+    font-size: 5vw;
     text-transform: uppercase;
-    height: 20vh;
+    height: 8rem;
     padding-bottom: 1vh;
     position: relative;
+
 
 }
 
@@ -964,8 +969,8 @@ mark{
     display: none; /* Hidden by default */
     position: absolute; /* Stay in place */
     z-index: 5; /* Sit on top */
-    left: 50vw;
-    top: 60vh;
+    left: 46vw;
+    top: 90vh;
     width: 40vw; /* Full width */
     /*overflow: hidden;  Enable scroll if needed */
 }
@@ -1021,25 +1026,29 @@ mark{
 
 .logodensity {
     width: 4vw;
+    filter: invert();
 }
 
 .logoPolimi {
     width: 11vw;
+    filter: invert();
 }
 
 .footer {
-    margin-top: 3em;
-    padding-top: 7em;
-    background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 80%, rgba(255,255,255,0) 100%);
-    height: 40vh;
+    margin-top: 3rem;
+    padding-top: 4rem;
+    height: 12rem;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 62%, rgba(255,255,255,0) 92%);
+    align-self: baseline;
 }
 
 .footertext {
-    color:black;
-    font-family: Arial Narrow, Arial, sans-serif;
-
-
+    color:white;
+    font-size: 1vw;
+    padding-left: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 /**************CURTAIN E INTRODUZIONE**********/
@@ -1411,11 +1420,6 @@ canvas {
         text-align: -webkit-center;
     }
 
-
-
-
-
-
     /*Artwork archivio*/
     .HKinfos {
         display: none;
@@ -1478,14 +1482,62 @@ canvas {
         line-height: 1.2;
     }
 
+    /*ABOUT*/
+
+    .bottone {
+        color: white;
+        background-color: black;
+        font-size: 6.1vw;
+        line-height: 1.2;
+        text-transform: uppercase;
+        height: 2.5rem;
+        padding-top: 0.4rem;
+    }
+
+    .asciiScissWhite {
+        font-family: "Courier New", Courier, monospace;
+        color: white;
+        font-size: 1.1vw;
+        line-height: 1;
+        font-weight: 900;
+        margin-bottom: 0;
+    }
+
+    .asciiScissWhiteAbout {
+        font-family: "Courier New", Courier, monospace;
+        font-size: 0.5vw;
+        color: white;
+        margin-top: 1rem;
+        margin-bottom: 0rem;
+        line-height: 0.6vw;
+        overflow: hidden;
+    }
+
+    .whoProjname {
+        color: white;
+        font-size: 3vw;
+    }
+    
+    .footer {
+    margin-top: 24rem;
+    padding-top: 2rem;
+    height: 10rem;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 62%, rgba(255,255,255,0) 92%);
+    align-self: baseline;
+}
+    
+    .footertext {
+    color: white;
+    font-size: 2.5vw;
+    padding-left: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+    }
 }
 
-
-
-
-
 @media only screen and (min-width:801px)  { 
-
     .centerSticker {
         position: absolute;
         top: 50%;
@@ -1502,5 +1554,7 @@ canvas {
     .asciiNascostoMobile{
         display: block;
     }
+
+
 
 }
