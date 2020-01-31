@@ -555,7 +555,7 @@ a:hover {
     background: white;
     font-size: var(--main-note-size);
     width: 30vw;
-    border: 0.05rem #d400ff solid;
+    border: 0.05rem black solid;
     top: -6.5rem;
     left: 10rem;
     padding: 0.5rem;
@@ -568,12 +568,11 @@ a:hover {
     color: black;
 }
 
-/*smaller screen*/
 .HKinfosSmall {
     background: white;
-    font-size: var(--main-note-size);
-    border: 0.05rem red solid;
-    color:red;
+    font-size: 4vw;
+    border: 0.05rem black solid;
+    color:black;
     padding: 0.5rem;
     text-align: left;
     line-height: 1.2em; 
@@ -1115,9 +1114,11 @@ canvas {
 
 /*/////////*/
 
-#poster{height:20rem;
-    margin-top:-5rem;}
-
+#poster {
+    height: 20rem;
+    margin-top: -14rem;
+    margin-bottom: 25rem;
+}
 
 /*HOME*/
 
@@ -1308,7 +1309,7 @@ canvas {
     /*TESTO MW HOME*/
 
 
-    .asciiNascostoMobile {
+    . {
         display: none;
     }
 
@@ -1419,6 +1420,16 @@ canvas {
     }
 
     /*Artwork archivio*/
+    .cat {
+        position: relative;
+        top: 26vh;
+        left: 0vw;
+        z-index: 1;
+        transition: 0.7s ease-in-out;
+        height: 4rem;
+        width: auto;
+    }
+
     .HKinfos {
         display: none;
     }
@@ -1434,11 +1445,26 @@ canvas {
     }
 
     /*ARCHIVIO*/
-    
+
+
+    .asciifilters {
+        font-family: "Courier New", Courier, monospace;
+        font-size: 1vw;
+        color: black;
+        margin: 0;
+        line-height: 1;
+    }
+
+    .mostraFiltro {
+        display: none;
+    }
+
+
+
     .sidenav, .bottoncino  {
         display: none;
     }
-   
+
 
     .didascalie_1 {
         font-size: 4.5vw;
@@ -1480,7 +1506,6 @@ canvas {
     }
 
     #myModal {
-        display: block;
         left: 0;
         top: 0px;
     }
@@ -1545,6 +1570,7 @@ canvas {
     }
 
     /*ABOUT*/
+
     .bottone {
         color: white;
         background-color: black;
@@ -1596,6 +1622,29 @@ canvas {
         padding-bottom: 0;
 
     }
+    
+    .titoli-about {
+    font-size: 7vw;
+    line-height: 1.2;
+    color: white;
+}
+
+
+.testi-about {
+    font-size: 4vw;
+    line-height: 1.1em;
+    z-index: 1; 
+    color: white;
+}
+
+    /*//////*/
+    .asciiPiccoloMobile {
+        font-size: 1vw;
+        line-height: 1.1;
+    }
+    .asciiNascostoMobile{
+        display: none;
+    }
 
 
 }
@@ -1614,7 +1663,7 @@ canvas {
         margin-bottom: 10vh;
     }
 
-    .asciiNascostoMobile{
+    .{
         display: block;
     }
 
@@ -1624,6 +1673,11 @@ canvas {
         padding-top: 15px;
     }
     .sidenav a {font-size: 18px;}
+
+    #bottoneFiltri {
+        background: none;
+        border: none;
+    }
 
 
 
