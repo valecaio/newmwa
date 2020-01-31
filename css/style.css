@@ -1341,7 +1341,7 @@ canvas {
         padding-top: 0.1rem;
         margin-right: 0.5rem;
     }
-    
+
     #mushroomA, #mushroomB, #mushroomC {
         width: 24vw;
         margin: 0;
@@ -1367,7 +1367,7 @@ canvas {
         height: 16vh;
         width: auto;
         transform-origin: center;
-        transform: rotate(-8deg) translateX(1rem);
+        transform: rotate(-8deg) translateX(7rem);
         transition: 0.4s ease-in-out;
         margin-top: 1rem;
         margin-bottom:1rem;
@@ -1379,7 +1379,7 @@ canvas {
         height: 16vh;
         width: auto;
         transform-origin: center;
-        transform: rotate(-8deg) translateX(1rem) scale(0.95);
+        transform: rotate(-8deg) translateX(7rem) scale(0.95);
         transition: 0.4s ease-in-out;
         margin-top: 1rem;
     }
@@ -1399,11 +1399,15 @@ canvas {
         font-size: 8vw;
         line-height: 1.2;
         color: black;
-
     }
 
     .propaganda__link sup {
         font-size: 5vw;
+    }
+
+    .propaganda__link sup:hover {
+        font-size: 5vw;
+        text-decoration: none;
     }
 
     .propaganda__link:hover {
@@ -1422,6 +1426,7 @@ canvas {
         font-size: 75%;
         line-height: 0;
         vertical-align: super;
+    
     }
 
     .asciiSciss {
@@ -1570,13 +1575,13 @@ canvas {
     }
 
     .spiegawarfare-text {
-        font-size: 8vw;
+        font-size: 5vw;
         line-height: 1.2em;
     }
-    
+
     #spiegawarfare-text-noteHome {
-    font-size: 4vw;
-    line-height: 1.2;
+        font-size: 4vw;
+        line-height: 1.2;
     }
 
     .seeothertechniques{
@@ -1644,20 +1649,20 @@ canvas {
         padding-bottom: 0;
 
     }
-    
+
     .titoli-about {
-    font-size: 7vw;
-    line-height: 1.2;
-    color: white;
-}
+        font-size: 7vw;
+        line-height: 1.2;
+        color: white;
+    }
 
 
-.testi-about {
-    font-size: 4vw;
-    line-height: 1.1em;
-    z-index: 1; 
-    color: white;
-}
+    .testi-about {
+        font-size: 4vw;
+        line-height: 1.1em;
+        z-index: 1; 
+        color: white;
+    }
 
     /*//////*/
     .asciiPiccoloMobile {
