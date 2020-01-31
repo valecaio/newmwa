@@ -1,19 +1,19 @@
 /*
 @font-face {
-    font-family: 'Arial Narrow';
-    src: url('assets/fonts/arialnarrow.woff') format('woff'),
-        src: url('assets/fonts/arialnarrow.woff2') format('woff2');
+font-family: 'Arial Narrow';
+src: url('assets/fonts/arialnarrow.woff') format('woff'),
+src: url('assets/fonts/arialnarrow.woff2') format('woff2');
 }
 */
 /*
 
 body {
-    background: url('https://i.ibb.co/R4NJYgR/Asset1-8.png')no-repeat center center fixed;
-    overflow-x: hidden;
-    font-family: 'Arial Narrow', Arial, sans-serif;
-    font-stretch: extra-condensed;
-    font-weight: 400;
-     position: absolute;
+background: url('https://i.ibb.co/R4NJYgR/Asset1-8.png')no-repeat center center fixed;
+overflow-x: hidden;
+font-family: 'Arial Narrow', Arial, sans-serif;
+font-stretch: extra-condensed;
+font-weight: 400;
+position: absolute;
 
 }
 */

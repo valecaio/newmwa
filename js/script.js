@@ -2412,21 +2412,7 @@ $('#cheezburger').mousemove(function(e){
 
 
 
-//////////////////////////////////
-/////////ASCII ANIMATION /////////
 
-//scissors 
-var scissor = $('pre[id^="scissor-"]').hide(),
-    a = 0;
-
-(function cycle() {
-    scissor.eq(a).show(0)
-        .delay(400)
-        .hide(0, cycle);
-
-    a = ++a % scissor.length;
-
-})();
 
 
 //back to
