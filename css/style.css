@@ -102,7 +102,13 @@ body {
 
 .spiegawarfare-text-piccolo {
     font-size: var(--main-note-size);
-    line-height: 1.3em;
+    line-height: 1.2em;
+    margin-top: 0.2rem;
+}
+
+#spiegawarfare-text-noteHome {
+    font-size: 1vw;
+    line-height: 1.2;
 }
 
 #first {
@@ -1123,11 +1129,9 @@ canvas {
 /*HOME*/
 
 .wkLayoutImg {
-    width: 12vw;
+    width: 11vw;
     height: auto;
     padding: 0rem;
-
-
 }
 
 #pepe{
@@ -1148,8 +1152,9 @@ canvas {
     height: 14vh;
     width: auto;
     transform-origin: center;
-    transform: rotate(-8deg) translateY(-2rem) translateX(4rem); 
+    transform: rotate(-8deg) translateY(0.4rem) translateX(1.3rem);
     transition: 0.4s ease-in-out;
+    margin-top: 0.5rem;
 }
 
 #memeInfo:hover {
@@ -1158,8 +1163,9 @@ canvas {
     height: 14vh;
     width: auto;
     transform-origin: center;
-    transform: rotate(-18deg) translateY(-2rem) translateX(4rem); 
+    transform: rotate(-8deg) translateY(0.4rem) translateX(1.3rem) scale(0.95);
     transition: 0.7s ease-in-out;
+    margin-top: 0.5rem;
 }
 
 .colAscii{
@@ -1168,6 +1174,7 @@ canvas {
 }
 
 .supHome{
+    top:0rem;
     padding: 0.1rem;
     padding-left: 0.15rem;
     height: 1rem;
@@ -1350,7 +1357,6 @@ canvas {
         transform-origin: center;
         transform: rotate(-14deg) translateY(1rem) translateX(7rem);
         transition: 0.4s ease-in-out;
-        margin-bottom: 2rem;
     }
 
     #memeInfo:active{
