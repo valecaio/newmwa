@@ -1123,8 +1123,8 @@ canvas {
 
 #poster {
     height: 20rem;
-    margin-top: -14rem;
-    margin-bottom: 25rem;
+    margin-top: -12rem;
+    margin-bottom: 22rem;
 }
 
 /*HOME*/
@@ -1426,7 +1426,7 @@ canvas {
         font-size: 75%;
         line-height: 0;
         vertical-align: super;
-    
+
     }
 
     .asciiSciss {
@@ -1595,6 +1595,13 @@ canvas {
         margin: 0;
         line-height: 1.2;
     }
+
+    #poster {
+        height: 20rem;
+        margin-top: -10rem;
+        margin-bottom: 20rem;
+    }
+
 
     /*ABOUT*/
 
