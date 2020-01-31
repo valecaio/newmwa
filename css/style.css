@@ -5,6 +5,7 @@
         src: url('assets/fonts/arialnarrow.woff2') format('woff2');
 }
 */
+/*
 
 body {
     background: url('https://i.ibb.co/R4NJYgR/Asset1-8.png')no-repeat center center fixed;
@@ -12,6 +13,16 @@ body {
     font-family: 'Arial Narrow', Arial, sans-serif;
     font-stretch: extra-condensed;
     font-weight: 400;
+     position: absolute;
+
+}
+*/
+
+
+body {
+    background: url('https://i.ibb.co/R4NJYgR/Asset1-8.png')no-repeat center center fixed;
+    overflow-x: hidden;
+    font-family:'ArialNarrow';
     /* position: absolute;*/
 
 }
@@ -37,7 +48,7 @@ body {
 }
 
 .light {
-    font-family: 'Arial Narrow';
+    font-family: 'ArialNarrow';
     font-weight: 100;
 }
 
