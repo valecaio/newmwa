@@ -1,28 +1,13 @@
-/*
 @font-face {
-font-family: 'Arial Narrow';
-src: url('assets/fonts/arialnarrow.woff') format('woff'),
-src: url('assets/fonts/arialnarrow.woff2') format('woff2');
+    font-family: 'arialnarrow';
+    src: url('assets/fonts/arialnarrow.woff') format('woff'),
+        src: url('assets/fonts/arialnarrow.woff2') format('woff2');
 }
-*/
-/*
-
-body {
-background: url('https://i.ibb.co/R4NJYgR/Asset1-8.png')no-repeat center center fixed;
-overflow-x: hidden;
-font-family: 'Arial Narrow', Arial, sans-serif;
-font-stretch: extra-condensed;
-font-weight: 400;
-position: absolute;
-
-}
-*/
-
 
 body {
     background: url('https://i.ibb.co/R4NJYgR/Asset1-8.png')no-repeat center center fixed;
     overflow-x: hidden;
-    font-family:'ArialNarrow';
+    font-family: arialnarrow;
     /* position: absolute;*/
 
 }
@@ -1144,6 +1129,8 @@ canvas {
     padding: 0rem;
 }
 
+
+
 #pepe{
     width: 14vw;
     height: auto;
@@ -1191,6 +1178,7 @@ canvas {
     width: 1rem;
     border: 0.01rem solid black;
     margin-right: 0.5rem;
+    font-size: 0.7rem;
 }
 
 .IGlink{
@@ -1735,4 +1723,9 @@ canvas {
 
 .seeothertechniques {
     z-index: 1;
+}
+.wkLayoutImgVert {
+   width: auto;
+    height: 6.5vw;
+    padding: 0rem;
 }
