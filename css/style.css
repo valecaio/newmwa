@@ -1,3 +1,4 @@
+/*
 @font-face {
     font-family: 'arialnarrow';
     src: url('assets/fonts/arial_narrow_italic-webfont.woff') format('woff');
@@ -7,13 +8,27 @@
     src: url('assets/fonts/arial_narrow_bold_italic-webfont.eot') format('eot');
     src: url('assets/fonts/arial_narrow_bold-webfont.eot') format('eot');
     src: url('assets/fonts/arial_narrow-webfont.eot') format('eot');
-    
+
+}
+*/
+
+@font-face {
+    font-family: 'arial_narrowregular';
+    src: url('arial_narrow-webfont.eot');
+    src: url('arial_narrow-webfont.eot?#iefix') format('embedded-opentype'),
+        url('arial_narrow-webfont.woff2') format('woff2'),
+        url('arial_narrow-webfont.woff') format('woff'),
+        url('arial_narrow-webfont.ttf') format('truetype'),
+        url('arial_narrow-webfont.svg#arial_narrowregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 body {
     background: url('https://i.ibb.co/R4NJYgR/Asset1-8.png')no-repeat center center fixed;
     overflow-x: hidden;
-    font-family: arialnarrow;
+    font-family: arial_narrowregular;
     /* position: absolute;*/
 
 }
@@ -273,9 +288,9 @@ img {
 }
 
 .pet-name:hover {
-/*
+    /*
     cursor:url(https://i.ibb.co/VmjLG9y/info-yellow-01.png) 25 15, auto;
-*/
+    */
     cursor:url(https://i.ibb.co/VVYjcXp/info-yellow-01.png) 25 15, auto;
 }
 
@@ -372,8 +387,8 @@ input[type="radio"]:checked:after {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: -2rem;
     width: 100%; /* Full width */
     height: 100%; /* Full height */
     /*overflow: hidden;  Enable scroll if needed */
@@ -683,7 +698,7 @@ a:hover {
     height: 100%;
     width:2.5rem;
     padding-top: 50vh;
-    
+
 }
 
 .bottoncino a {
@@ -980,13 +995,12 @@ mark{
 }
 
 .modal-kym {
-    display: none; /* Hidden by default */
-    position: absolute; /* Stay in place */
-    z-index: 5; /* Sit on top */
-    left: 50vw;
-    top: 135vh;
-    width: 40vw; /* Full width */
-    /*overflow: hidden;  Enable scroll if needed */
+    display: none;
+    position: absolute;
+    z-index: 5;
+    left: 40vw;
+    top: 175vh;
+    width: 40vw;
 }
 
 
@@ -1383,9 +1397,9 @@ canvas {
         transition: 0.4s ease-in-out;
         margin-top: 1rem;
         margin-top: 1rem;
-    
+
     }
-    
+
     .spiegawarfare-text-piccolo {
         font-size: 4vw;
         margin-right: 0;
@@ -1490,7 +1504,7 @@ canvas {
     .sidenav, .bottoncino  {
         display: none;
     }
-    
+
     .grigliaSide {
         height: 5rem;
         width: auto;
