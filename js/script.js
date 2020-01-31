@@ -2330,6 +2330,7 @@ $('#memetic').mousemove(function(e){
 
 
 
+
 //////////////////////////////////
 /////////PROTOCOL/////////
 
@@ -2891,17 +2892,21 @@ $(function() {
 ////////MOUSE OVER SU HK///////////
 
 function movimento(e) {
-    var sinistra = e.clientX;
-    var destra = e.clientY;
+    var sinistra = e.pageX;
+    var destra = e.pageY;
     document.getElementById("demo").style.top = destra + 10 + "px";
     document.getElementById("demo").style.left = sinistra + 10 + "px";
     document.getElementById("demo").style.display = "block";
-}
+} 
+
+function sparisci() {
+    document.getElementById("demo").style.display = "none";
+} 
 
 
 ////////////////SIDEBAR///////////////
 function openNav() {
-    document.getElementById("mySidenav").style.width = "35%";
+    document.getElementById("mySidenav").style.width = "30%";
 }
 
 function closeNav() {

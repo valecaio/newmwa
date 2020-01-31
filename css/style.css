@@ -529,6 +529,7 @@ a:hover {
 #demo {
     position: absolute;
     width: 30%;
+    display: none;
 
 }
 
@@ -637,67 +638,55 @@ a:hover {
     position: fixed;
     z-index: 100;
     top: 0;
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 8%, rgba(255,255,255,1) 100%);
-    filter: invert(100%);
+    background: white;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 12vh;
     right: 0rem;
 
 }
-/*
-.sidenav a {
-padding: 0rem 0rem 8rem 32rem;
-text-decoration: none;
-font-size: var(--main-note-size);
-display: block;
-transition: 0.3s;
-}*/
+
 
 .sidenav a:hover {
     color: black;
-    -webkit-text-fill-color: white;  Will override color (regardless of order) 
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black; 
 }
 
 
 .navTitle p {
-    font-size: 1.2vw;
+    font-size: 1vw;
 
 }
-
 .navTitle a {
-    font-size: 2vw;
+    font-size: 1vw;
 }
 
 .navTitle {
-    line-height: 1.3rem;
+    line-height: 1.2rem;
 }
 
 
 
 .bottoncino {
     position: fixed;
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
+    background: white;
     z-index: 50;
     right: 0rem;
     height: 100%;
-    width:15vw%;
+    width:2.5rem;
     padding-top: 50vh;
+    
 }
 
 .bottoncino a {
-    color: white;
+    color: black;
 
 }
 
 .rotato {
-    transform: translateX(-1rem) rotate(-90deg);
-    font-size: 4vw;
-    color: white;
+    transform:rotate(-90deg);
+    font-size: 1.5vw;
+    color: black;
+    text-transform: uppercase;
 }
 
 
@@ -1370,7 +1359,7 @@ canvas {
         transform: rotate(-8deg) translateX(7rem);
         transition: 0.4s ease-in-out;
         margin-top: 1rem;
-        margin-bottom:1rem;
+        margin-top: 1rem;
     }
 
     #memeInfo:active{
@@ -1382,11 +1371,15 @@ canvas {
         transform: rotate(-8deg) translateX(7rem) scale(0.95);
         transition: 0.4s ease-in-out;
         margin-top: 1rem;
+        margin-top: 1rem;
+    
     }
+    
     .spiegawarfare-text-piccolo {
         font-size: 4vw;
         margin-right: 0;
         margin-right:0.5rem;
+        margin-bottom:1rem;
     }
 
     #pepe{
@@ -1485,6 +1478,11 @@ canvas {
 
     .sidenav, .bottoncino  {
         display: none;
+    }
+    
+    .grigliaSide {
+        height: 5rem;
+        width: auto;
     }
 
 
@@ -1704,9 +1702,10 @@ canvas {
     /*SIDEBAR*/
     .sidenav {
         display: block;
-        padding-top: 15px;
+        padding-top: 5rem;
+        width: 30%;
     }
-    .sidenav a {font-size: 18px;}
+    .sidenav a {font-size: 1.2rem;}
 
     #bottoneFiltri {
         background: none;
