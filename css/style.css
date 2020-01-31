@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'arialnarrow';
+    font-family: 'Arial Narrow';
     src: url('assets/fonts/arialnarrow.woff') format('woff'),
         src: url('assets/fonts/arialnarrow.woff2') format('woff2');
 }
@@ -7,7 +7,7 @@
 body {
     background: url('https://i.ibb.co/R4NJYgR/Asset1-8.png')no-repeat center center fixed;
     overflow-x: hidden;
-    font-family: arialnarrow;
+    font-family: Arial Narrow, Arial, sans-serif;
     /* position: absolute;*/
 
 }
@@ -33,7 +33,7 @@ body {
 }
 
 .light {
-    font-family: arialnarrow;
+    font-family: Arial Narrow;
     font-weight: 100;
 }
 
@@ -698,6 +698,7 @@ mark{
     color: white;
     padding: .1rem;
     padding-right: .2rem;
+    line-height: 1.6;
 }
 
 
@@ -1706,7 +1707,7 @@ canvas {
     /*SIDEBAR*/
     .sidenav {
         display: block;
-        padding-top: 6rem;
+        padding-top: 7rem;
         width: 30%;
     }
     .sidenav a {font-size: 1.2rem;}
