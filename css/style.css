@@ -1,7 +1,13 @@
 @font-face {
     font-family: 'arialnarrow';
-    src: url('assets/fonts/arialnarrow.woff') format('woff'),
-        src: url('assets/fonts/arialnarrow.woff2') format('woff2');
+    src: url('assets/fonts/arial_narrow_italic-webfont.woff') format('woff');
+    src: url('assets/fonts/arial_narrow-webfont.woff') format('woff');
+    src: url('assets/fonts/arial_narrow_italic-webfont.woff2') format('woff2');
+    src: url('assets/fonts/arial_narrow-webfont.woff2') format('woff2');
+    src: url('assets/fonts/arial_narrow_bold_italic-webfont.eot') format('eot');
+    src: url('assets/fonts/arial_narrow_bold-webfont.eot') format('eot');
+    src: url('assets/fonts/arial_narrow-webfont.eot') format('eot');
+    
 }
 
 body {
@@ -267,7 +273,10 @@ img {
 }
 
 .pet-name:hover {
+/*
     cursor:url(https://i.ibb.co/VmjLG9y/info-yellow-01.png) 25 15, auto;
+*/
+    cursor:url(https://i.ibb.co/VVYjcXp/info-yellow-01.png) 25 15, auto;
 }
 
 
@@ -693,6 +702,8 @@ a:hover {
 mark{
     background: black;
     color: white;
+    padding: .1rem;
+    padding-right: .2rem;
 }
 
 
@@ -1702,7 +1713,7 @@ canvas {
     /*SIDEBAR*/
     .sidenav {
         display: block;
-        padding-top: 5rem;
+        padding-top: 6rem;
         width: 30%;
     }
     .sidenav a {font-size: 1.2rem;}
