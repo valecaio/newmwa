@@ -72,6 +72,7 @@ body {
 .dropdown-item:hover{
     text-decoration: underline;
     background: none;
+    color: black;
 }
 
 .dropdown:hover>.dropdown-menu {
@@ -1275,7 +1276,7 @@ canvas {
         transform-origin: bottom;
         transform: scale(0.8);
         transition: 0.7s ease-in-out;
-        padding-left: 18px;
+        padding-left: 2rem;
         margin-top: -6rem;
     }
 
@@ -1285,7 +1286,7 @@ canvas {
         border: none;
         z-index: 0;
         transition: 0.7s ease-in-out;
-        padding-left: 18px;
+        padding-left: 2rem;
         margin-top: -8rem;
     }
 
@@ -1295,7 +1296,7 @@ canvas {
         transition: 0.7s ease-in-out;
         transform-origin: top;
         transform: scale(0.8);
-        padding-left: 18px;
+        padding-left: 2rem;
         margin-top: -2rem;
     }
 
