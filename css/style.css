@@ -1715,5 +1715,8 @@ canvas {
         background: none;
         border: none;
     }
+}
 
+.seeothertechniques {
+    z-index: 1;
 }
