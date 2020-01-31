@@ -1434,6 +1434,11 @@ canvas {
     }
 
     /*ARCHIVIO*/
+    
+    .sidenav, .bottoncino  {
+        display: none;
+    }
+   
 
     .didascalie_1 {
         font-size: 4.5vw;
@@ -1485,7 +1490,7 @@ canvas {
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
     }
-    
+
     .bordoMobile{
         border-right: 0.5px solid black;
     }
@@ -1500,18 +1505,13 @@ canvas {
         height: 100%; /* Full height */
         overflow: hidden;
     }
-    
+
     .barra {
-    background-color: white;
-    position: relative;
-    border:none;
-    padding: 0px;
-}
-
-
-    /*SIDEBAR*/
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+        background-color: white;
+        position: relative;
+        border:none;
+        padding: 0px;
+    }
 
     /*SCHEDE PROPAGANDA*/
 
@@ -1545,7 +1545,6 @@ canvas {
     }
 
     /*ABOUT*/
-
     .bottone {
         color: white;
         background-color: black;
@@ -1618,6 +1617,14 @@ canvas {
     .asciiNascostoMobile{
         display: block;
     }
+
+    /*SIDEBAR*/
+    .sidenav {
+        display: block;
+        padding-top: 15px;
+    }
+    .sidenav a {font-size: 18px;}
+
 
 
 
