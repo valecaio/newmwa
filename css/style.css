@@ -205,6 +205,7 @@ p {
     color: black;
     margin: 0;
     line-height: 1.2;
+    font-weight: 700;
 }
 
 .ascii_credits {
@@ -1219,6 +1220,12 @@ canvas {
     margin: 10rem;
 }
 
+.discoverTechnique {
+    font-size:1.9vw;
+    margin-bottom: 1rem;
+}
+
+
 /*/////////////////////////// ONLY///////////////////////////*/
 @media only screen and (max-width: 400px) {
 
@@ -1497,7 +1504,10 @@ canvas {
         font-size: 1vw;
         color: black;
         margin: 0;
+        font-weight: 700;
         line-height: 1;
+    
+    
     }
 
     .mostraFiltro {
@@ -1881,7 +1891,7 @@ canvas {
 
 
     .seeothertechniques {
-        margin-top:40rem;
+        margin-top:35rem;
     }
 
     .descrizionetecnica{
@@ -1890,7 +1900,7 @@ canvas {
     }
 
     #sticherz{
-        zoom:2;
+        zoom:2.5;
     }
 
     iframe {
@@ -1905,8 +1915,15 @@ canvas {
     /*HOME*/
     #marginiCustom {
         padding: 3rem;
-        margin-left: 32rem;
+        margin-left: 15rem;
+        margin-right: 15rem;
     }
+    
+    #secondHome {
+    position: relative;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
 
 
     /*ABOUT*/
@@ -1938,6 +1955,32 @@ canvas {
         padding-top: 24vh;
         padding-bottom: 0vh;
     }
+    
+    #poster {
+        height: 20rem;
+        margin-top: -25rem;
+        margin-bottom: 20rem;
+    }
+    
+    .whoProjname {
+        color: white;
+        font-size: 1.2vw;
+        margin-top: 1rem;
+    }
+    
+    .ascii_credits {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 0.4vw;
+    color: white;
+    margin: 0;
+    line-height: 1.15;
+}
+    
+    #first {
+    background: none;
+    padding-top: 32vh;
+    padding-bottom: 20vh;
+}
 
 }
 
@@ -1955,5 +1998,10 @@ canvas {
     height: 6.5vw;
     padding: 0rem;
 }
+
+.boldino{
+    font-weight: 800;
+}
+
 
 
