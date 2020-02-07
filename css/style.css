@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Arial Narrow';
-    src: url('assets/fonts/arialnarrow.woff') format('woff');
-    src: url('assets/fonts/arialnarrow.woff2') format('woff2');
+    src: url('../assets/fonts/arialnarrow.woff') format('woff');
+    src: url('../assets/fonts/arialnarrow.woff2') format('woff2');
 }
 
 body {
@@ -109,7 +109,7 @@ body {
 }
 
 #spiegawarfare-text-noteHome {
-    font-size: 1.2vw;
+    font-size: 1vw;
     line-height: 1.13;
 }
 
@@ -937,7 +937,7 @@ mark{
 /*PROTOCOL*/
 .st0{fill:#FFFFFF;}
 
-.st1{font-family:'ArialNarrow';}
+.st1{font-family:'Arial Narrow';}
 
 .st2{font-size:55.6716px;}
 
@@ -1158,7 +1158,7 @@ canvas {
     height: 14vh;
     width: auto;
     transform-origin: center;
-    transform: rotate(-8deg) translateY(0.4rem) translateX(1.3rem);
+    transform: rotate(-8deg) translateX(1.3rem);
     transition: 0.4s ease-in-out;
     margin-top: 0.5rem;
 }
@@ -1169,7 +1169,7 @@ canvas {
     height: 14vh;
     width: auto;
     transform-origin: center;
-    transform: rotate(-8deg) translateY(0.4rem) translateX(1.3rem) scale(0.95);
+    transform: rotate(-8deg) translateY(-0.1rem) translateX(1.3rem) scale(0.95);
     transition: 0.7s ease-in-out;
     margin-top: 0.5rem;
 }
@@ -1208,7 +1208,18 @@ canvas {
     width: auto;
 }
 
-/*///////////////////////////MEDIA ONLY///////////////////////////*/
+.titoli-testo-home {
+    font-size: 2vw;
+}
+#marginiCustom {
+    padding: 9rem;
+}
+
+#aboutMarginiCustom {
+    margin: 10rem;
+}
+
+/*/////////////////////////// ONLY///////////////////////////*/
 @media only screen and (max-width: 400px) {
 
     /*NAVBAR*/
@@ -1318,6 +1329,8 @@ canvas {
         font-size: 3vw;
         line-height: 1.2em;
     }
+
+
 
     .centerSticker {
         position: relative;
@@ -1879,31 +1892,68 @@ canvas {
     #sticherz{
         zoom:2;
     }
-    
+
     iframe {
-    width: 100%;
-    height: 1000px;
-    border-top-width: 0px;
-    border-right-width: 0px;
-    border-bottom-width: 0px;
-    border-left-width: 0px;
+        width: 100%;
+        height: 1620px;
+        border-top-width: 0px;
+        border-right-width: 0px;
+        border-bottom-width: 0px;
+        border-left-width: 0px;
+    }
+
+    /*HOME*/
+    #marginiCustom {
+        padding: 3rem;
+        margin-left: 32rem;
+    }
+
+
+    /*ABOUT*/
+
+    #aboutMarginiCustom {
+        padding-left: 15rem;
+        padding-right: 15rem;
+        margin: 0rem;
+    }
+
+   .footer {
+    margin-top: 11rem;
+    padding-top: 15rem;
+    height: 12rem;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 62%, rgba(255,255,255,0) 92%);
+    align-self: baseline;
+    position: relative;
+    padding-bottom: 2rem;
 }
 
+    .titoli_about {
+        font-size: 5vw;
+        line-height: 1.2;
+        color: white;
+    }
+
+    #about {
+        padding-top: 24vh;
+        padding-bottom: 0vh;
+    }
+
 }
 
 
-    ::-webkit-scrollbar {
-        width: 0px;
-        background: transparent; /* make scrollbar transparent */
-    }
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
 
-    .seeothertechniques {
-        z-index: 1;
-    }
-    .wkLayoutImgVert {
-        width: auto;
-        height: 6.5vw;
-        padding: 0rem;
-    }
+.seeothertechniques {
+    z-index: 1;
+}
+.wkLayoutImgVert {
+    width: auto;
+    height: 6.5vw;
+    padding: 0rem;
+}
 
 
